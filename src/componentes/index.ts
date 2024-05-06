@@ -1,4 +1,5 @@
 import TestComponent from "./TestComponent/TestComponent";
-export { TestComponent };
+import EquipoCard from "./EquipoCard/EquipoCard";
+export { TestComponent, EquipoCard };
 
-// Test3
+// Test4
