@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { TestComponent } from "./componentes";
+import { TestComponent, EquipoCard } from "./componentes";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -34,6 +34,12 @@ function App() {
                 Click on the Vite and React logos to learn more
             </p>
             <TestComponent />
+            <EquipoCard
+                nameText="NameText"
+                clave="clave"
+                url="https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg"
+                ubicacion="ubicacion"
+            />
         </>
     );
 }
